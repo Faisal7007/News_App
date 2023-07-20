@@ -1,0 +1,16 @@
+.nav_act > .active{
+    color: red;
+
+}
+
+.active_link{
+    color: red;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.active{
+    color: red;
+}
