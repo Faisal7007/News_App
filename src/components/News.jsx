@@ -53,7 +53,7 @@ function News({pageSize,country,category}) {
     
   return (
     <Container style={{marginTop:'6rem'}} fluid>
-      <h1  style={{textAlign:'center',fontSize:'50px',marginBottom:'40px',marginTop:'20px' , color:'gray'}}>News-Hunt <span style={{color:'black',textTransform:'capitalize',fontStyle:'italic'}}>{category} </span>Top Headlines</h1>
+      <h1  style={{textAlign:'center',fontSize:'50px',marginBottom:'40px',marginTop:'20px' , color:'gray'}}>AbcNews-Top <span style={{color:'black',textTransform:'capitalize',fontStyle:'italic'}}>{category} </span> Headlines</h1>
       {
         !loading ? <>
       <Row>

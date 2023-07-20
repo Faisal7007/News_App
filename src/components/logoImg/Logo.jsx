@@ -1,10 +1,11 @@
 import React from 'react'
-import news_logo2 from './news_logo2.png'
+import abc_logo from './abc_news_logo.png'
+//  abcNEWS Logo ==>  https://www.pngitem.com/pimgs/m/65-656029_abc-news-news-logo-clear-background-hd-png.png
 
 function Logo() {
   return (
     <div className='logo'>
-        <img style={{height:'30px'}} src={news_logo2} alt="news_logo" />
+        <img style={{height:'60px'}} src={abc_logo} alt="news_logo" />
     </div>
   )
 }

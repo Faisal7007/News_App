@@ -9,10 +9,10 @@ import './NavbarComp.css';
 function NavbarComp() {
   return (
     <div>
-        <Navbar expand="lg"  fixed="top" bg="dark"   data-bs-theme="dark" className="bg-body-tertiary">
+        <Navbar expand="lg"  fixed="top"  className="bg-body-tertiary">
       <Container >
-        <Navbar.Brand className='logo' href="#home">News</Navbar.Brand>
-        {/* <Logo/> */}
+        <Logo/>
+        <Navbar.Brand className='logo' href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto nav_act " >
